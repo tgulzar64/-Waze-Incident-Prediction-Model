@@ -1,2 +1,11 @@
 # -Waze-Incident-Prediction-Model
  Waze Incident Prediction Model Waze Incident Prediction Model Mar 2024 - Jun 2024Mar 2024 - Jun 2024 For this project, I applied machine learning techniques to predict traffic incidents using data from Waze, which included 14999 incident records
+
+The dataset featured variables such as incident type (accidents, traffic jams, road closures), traffic speed, time of day, location, and weather conditions. My Exploratory Data Analysis (EDA) revealed strong correlations between rush hour traffic, weather events, and the frequency of incidents, which informed the feature selection process.
+
+I employed Random Forest and Gradient Boosting models, using an 80/20 train-test splits and also splitting into Validation data set. After tuning hyperparameters, the XGBoost Model achieved an accuracy of 80.5%, precision of 39%, and recall of 16.6%.
+
+This project has practical applications for traffic management and city planning, enabling real-time traffic monitoring and incident prediction to reduce delays and improve road safety.
+Tools & Techniques: Python, Pandas, Scikit-learn, Random Forest, Gradient Boosting, Hyperparameter Tuning, Data Visualization (Seaborn, Matplotlib).For this project, I applied machine learning techniques to predict traffic incidents using data from Waze, which included 14999 incident records. The dataset featured variables such as incident type (accidents, traffic jams, road closures), traffic speed, time of day, location, and weather conditions. My Exploratory Data Analysis (EDA) revealed strong correlations between rush hour traffic, weather events, and the frequency of incidents, which informed the feature selection process. I employed Random Forest and Gradient Boosting models, using an 80/20 train-test splits and also splitting into Validation data set. After tuning hyperparameters, the XGBoost Model achieved an accuracy of 80.5%, precision of 39%, and recall of 16.6%. This project has practical applications for traffic management and city planning, enabling real-time traffic monitoring and incident prediction to reduce delays and improve road safety. Tools & Techniques: Python, Pandas, Scikit-learn, Random Forest, Gradient Boosting, Hyperparameter Tuning, Data Visualization (Seaborn, Matplotlib).
+
+Skills: Machine Learning, XGBoost, Random Forest, Optimization, Predictive Modeling
